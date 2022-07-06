@@ -29,4 +29,4 @@
 
 ---
 
-有興趣的人直接在專案上開個issue、加個字，順便練習如何使用github吧 :rocket:
+有興趣的人直接在專案上開個issue、加個字，順便練習如何使用github吧 :rocket: :rocket:
