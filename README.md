@@ -1,6 +1,6 @@
 # portal5
-> dig dig dig
 
+> dig dig dig
 
 哈囉大家好，我想做一個小網站專案做為練習，名稱暫訂為「五倍紅寶石週邊探索地圖」
 
@@ -15,7 +15,6 @@
 - [ ] 可針對商家給予評分、心得等(\已登入)
 - [ ] 其他更多...
 
-
 ### 已登入狀態
 
 - 作為使用者
@@ -29,4 +28,33 @@
 
 ---
 
-有興趣的人直接在專案上開個issue、加個字，順便練習如何使用github吧 :rocket: :rocket:
+有興趣的人直接在專案上開個 issue、加個字，順便練習如何使用 github 吧 :rocket: :rocket:
+
+---
+
+### rails generate
+
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+- Ruby version
+
+- System dependencies
+
+- Configuration
+
+- Database creation
+
+- Database initialization
+
+- How to run the test suite
+
+- Services (job queues, cache servers, search engines, etc.)
+
+- Deployment instructions
+
+- ...
