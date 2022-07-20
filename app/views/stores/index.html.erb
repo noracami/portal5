@@ -1,0 +1,31 @@
+<h1>商店列表</h1>
+
+<%= link_to "新增商店", new_store_path %>
+
+<table>
+  <thead>
+    <tr>
+      <td>留言</td>
+      <td>候選人姓名</td>
+      <td>政黨</td>
+      <td>政見</td>
+      <td>票數</td>
+      <td>處理</td>
+    </tr>
+  </thead>
+  <tbody>
+    <% @stores.each do |store| %>
+    <tr>
+      <td><%= link_to "投給這位", comment_store_path(store), method: "post", data: { confirm: "確定投給這個人?" } %></td>
+      <td><%= store.name %></td>
+      <td><%= store.address %></td>
+      <td><%= store.introduction %></td>
+      <td><%= store.comments.size %></td>
+      <td>
+        <%= link_to "編輯", edit_store_path(store) %>
+        <%= link_to "刪除", store_path(store), method: "delete", data: { confirm: "確認刪除" } %>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

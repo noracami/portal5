@@ -1,0 +1,12 @@
+<%= form_for(store) do |f| %>
+  <%= f.label :name, "姓名" %>
+  <%= f.text_field :name %> <br />
+
+  <%= f.label :address, "地址" %>
+  <%= f.text_field :address %> <br />
+
+  <%= f.label :introduction, "詳細資料" %>
+  <%= f.text_area :introduction %> <br />
+
+  <%= f.submit %>
+<% end %>
